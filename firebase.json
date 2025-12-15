@@ -1,0 +1,28 @@
+{
+  "firestore": {
+    "rules": "firestore.rules"
+  },
+  "flutter": {
+    "platforms": {
+      "android": {
+        "default": {
+          "projectId": "boibinimoy-c0321",
+          "appId": "1:867943037888:android:e72153da9f3a3f66e66625",
+          "fileOutput": "android/app/google-services.json"
+        }
+      },
+      "dart": {
+        "lib/firebase_options.dart": {
+          "projectId": "boibinimoy-c0321",
+          "configurations": {
+            "android": "1:867943037888:android:e72153da9f3a3f66e66625",
+            "ios": "1:867943037888:ios:44fd516f77cbb6f1e66625",
+            "macos": "1:867943037888:ios:44fd516f77cbb6f1e66625",
+            "web": "1:867943037888:web:fb663d6d4a9a243ae66625",
+            "windows": "1:867943037888:web:f37e8665bd05461ae66625"
+          }
+        }
+      }
+    }
+  }
+}
